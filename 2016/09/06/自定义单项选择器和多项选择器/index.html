@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-CN">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -95,7 +95,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="自定义单项选择器和多项选择器">
 <meta property="og:url" content="https://zbjdsbj.github.io/2016/09/06/自定义单项选择器和多项选择器/index.html">
-<meta property="og:site_name" content="知行合一">
+<meta property="og:site_name" content="薄荷腿子">
 <meta property="og:description" content="单项选择器单项选择器采用继承RadioGroup，代码如下：
 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889">
 <meta property="og:updated_time" content="2016-09-06T13:28:01.000Z">
@@ -110,13 +110,13 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -136,16 +136,26 @@
 
 
 
-  <title>自定义单项选择器和多项选择器 | 知行合一</title>
+  <title>自定义单项选择器和多项选择器 | 薄荷腿子</title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
 
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?16edf90ec032e5aed430d839f1d8246f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -173,12 +183,12 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">知行合一</span>
+        <span class="site-title">薄荷腿子</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">保持愚蠢，又不能知道自己有多蠢。</p>
+        <p class="site-subtitle">保持愚蠢，又不能知道自己有多蠢。——知行合一</p>
       
   </div>
 
@@ -203,7 +213,27 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
-            Startseite
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
           </a>
         </li>
       
@@ -213,7 +243,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
-            Archiv
+            归档
           </a>
         </li>
       
@@ -223,7 +253,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
-            Tags
+            标签
           </a>
         </li>
       
@@ -259,13 +289,13 @@
     <link itemprop="mainEntityOfPage" href="https://zbjdsbj.github.io/2016/09/06/自定义单项选择器和多项选择器/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="薄荷腿子">
+      <meta itemprop="name" content="薄荷腿子的Alsot">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="https://avatars1.githubusercontent.com/u/5990441?v=3&s=460">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="知行合一">
+      <meta itemprop="name" content="薄荷腿子">
     </span>
 
     
@@ -283,9 +313,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-09-06T21:14:16+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-09-06T21:14:16+08:00">
                 2016-09-06
               </time>
             
@@ -298,6 +328,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/09/06/自定义单项选择器和多项选择器/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/09/06/自定义单项选择器和多项选择器/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -393,6 +433,13 @@
           
   <div class="comments" id="comments">
     
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
   </div>
 
 
@@ -416,20 +463,20 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            站点概览
           </li>
         </ul>
       
 
       <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image" src="https://avatars1.githubusercontent.com/u/5990441?v=3&s=460" alt="薄荷腿子">
-          <p class="site-author-name" itemprop="name">薄荷腿子</p>
+          <img class="site-author-image" itemprop="image" src="https://avatars1.githubusercontent.com/u/5990441?v=3&s=460" alt="薄荷腿子的Alsot">
+          <p class="site-author-name" itemprop="name">薄荷腿子的Alsot</p>
            
-              <p class="site-description motion-element" itemprop="description">向人工智能AI机器学习ML迈进</p>
+              <p class="site-description motion-element" itemprop="description">向着人工智能AI、机器学习ML迈进</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -438,7 +485,7 @@
             <div class="site-state-item site-state-posts">
               <a href="/archives">
                 <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
@@ -503,18 +550,18 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">薄荷腿子</span>
+  <span class="author" itemprop="copyrightHolder">薄荷腿子的Alsot</span>
 </div>
 
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Pisces
   </a>
 </div>
 
@@ -594,6 +641,13 @@
   
   
 
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
@@ -609,6 +663,26 @@
 
   
 
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://Alost.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://zbjdsbj.github.io/2016/09/06/自定义单项选择器和多项选择器/';
+          this.page.identifier = '2016/09/06/自定义单项选择器和多项选择器/';
+          this.page.title = '自定义单项选择器和多项选择器';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://Alost.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
 
   
 
@@ -630,10 +704,6 @@
   
 
 
-
-
-
-  
 
 
 
